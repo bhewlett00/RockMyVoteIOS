@@ -14,6 +14,7 @@
 		F0A53DF923A271D600956F19 /* Rock_the_Vote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F0A53DF723A271D600956F19 /* Rock_the_Vote.xcdatamodeld */; };
 		F0A53DFB23A271D700956F19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A53DFA23A271D700956F19 /* Assets.xcassets */; };
 		F0A53DFE23A271D700956F19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0A53DFC23A271D700956F19 /* LaunchScreen.storyboard */; };
+		F0A53E0623A2742D00956F19 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A53E0523A2742D00956F19 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F0A53DFA23A271D700956F19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0A53DFD23A271D700956F19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0A53DFF23A271D700956F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A53E0523A2742D00956F19 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				F0A53DF423A271D600956F19 /* Main.storyboard */,
 				F0A53DFA23A271D700956F19 /* Assets.xcassets */,
 				F0A53DFC23A271D700956F19 /* LaunchScreen.storyboard */,
+				F0A53E0523A2742D00956F19 /* TableViewController.swift */,
 				F0A53DFF23A271D700956F19 /* Info.plist */,
 				F0A53DF723A271D600956F19 /* Rock_the_Vote.xcdatamodeld */,
 			);
@@ -144,6 +147,7 @@
 				F0A53DF323A271D600956F19 /* ViewController.swift in Sources */,
 				F0A53DEF23A271D600956F19 /* AppDelegate.swift in Sources */,
 				F0A53DF923A271D600956F19 /* Rock_the_Vote.xcdatamodeld in Sources */,
+				F0A53E0623A2742D00956F19 /* TableViewController.swift in Sources */,
 				F0A53DF123A271D600956F19 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Bri.Rock-the-Vote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Bri.Rock-the-Vote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
